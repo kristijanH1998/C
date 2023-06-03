@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char **argv)
+{
+	int year = 0;
+    printf ("Koliko imate godina? ");
+    
+    scanf ("%i", &year);
+    
+    printf ("Vi imate %i godina", year);
+    
+    system("PAUSE");
+    return 0;
+}

@@ -1,0 +1,35 @@
+https://overiq.com/c-programming-101/pointers-as-structure-member-in-c/
+
+-name
+-year
+-where you were born
+-what do you want to be once you graduate
+-what do you expect from this camp
+
+Team:
+
+
+CS 2300 Textbook pdf free:
+https://cloudflare-ipfs.com/ipfs/bafykbzaceckrkxfa4gognd54dnyoursvrme7cghxifmufm2wnpjplwbwqhkek?filename=Susanna%20S.%20Epp%20-%20Discrete%20Mathematics%20with%20Applications%2C%204th%20Edition-Brooks%20Cole%20%282010%29.pdf
+
+The image below shows a 2D map of a school hallway. An agent (robot) has to come from its starting position (starting state),
+(depicted with an orange triangle at the top left) to the destination classroom whose entrance is depicted with a blue 
+circle. The interior of that classroom is essentially a goal state. In order to do that, the agent has to come to the 
+entrance position in front of that classroom and enter it. Entrance position for each classroom is marked with a green circle. 
+Classrooms start with letters from "A" to "E", "R" is the restroom, and offices start with "O". 
+
+The set of states: all positions on a two-dimensional map of the hallway (but not beyond the bordering walls), and the 
+interiors of all classrooms, offices and the restroom. Interior of each room is considered to be a single position 
+(single state).
+
+Start state: starting position marked with an orange triangle
+
+Goal state: inside the classroom whose entrance is marked with a blue circle
+
+Set of valid actions: moving up, down, left or right (north, south, west, or east) until a border (a wall) is reached. 
+An agent cannot move past the wall, so depending on which wall is being faced by the agent, one or two movement directions
+may be impossible. An agent can always move in at least two directions, except for when it is inside a room. 
+
+The state space is a typical two-dimensional space where an agent can move freely as long as it is within the hallway. I 
+imagine a specific signal an agent would receive once it comes to each room's entrance, telling it which room it is facing
+at the moment. That way it can decide if it wants to enter that room or move somewhere else.
